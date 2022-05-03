@@ -1,4 +1,4 @@
-let palavras = ["Eva", "Eva", "Eva"];
+let palavras = ["Leopardo", "Rinoceronte", "Avestruz", "Camelo", "Javali"];
 
 let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 
@@ -23,9 +23,7 @@ let letras = alfabeto.split("");
 for (posicao = 0; posicao < letras.length; posicao++) {
     let botao = document.createElement("button");
     let letra = document.createTextNode(letras[posicao]);
-   // let letra = document.createTextNode("g");
-    //console.log(letras[posicao]);
-    
+       
     botao.appendChild(letra);
     botao.setAttribute('onclick', 'escolheLetra(\''+letras[posicao]+'\')');
     botao.setAttribute('id', letras[posicao]);
