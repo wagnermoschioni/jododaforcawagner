@@ -1,10 +1,10 @@
-let palavras = ["Leopardo", "Rinoceronte", "Avestruz", "Camelo", "Javali"];
+let palavras = ["Leopardo", "Rinoceronte", "Avestruz", "Camelo", "Javali", "Develop"];
 
 let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 
 let chances = 6;
 let acertos = 0;
-
+let teste = 4;
 let imagem = 0;
 
 let posicao;
