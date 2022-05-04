@@ -4,9 +4,7 @@ let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 
 let chances = 6;
 let acertos = 0;
-
 let imagem = 0;
-
 let posicao;
 
 for (posicao = 0; posicao < palavra.length; posicao++) {
@@ -99,10 +97,3 @@ function escolheLetra(letra) {
         div.appendChild(botao);
     }
 }
-
-
-
-
-
-
-
